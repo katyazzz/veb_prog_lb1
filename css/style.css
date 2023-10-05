@@ -1,0 +1,141 @@
+
+@font-face {
+    font-family: 'Onest';
+    src:  url('fonts/OnestRegular1602-hint.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Onest', sans-serif;
+}
+
+/* Стили для карточек товаров */
+.thumbnail {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+}
+
+.caption {
+    height: 70px;
+    overflow: hidden;
+}
+
+.ratings {
+    margin-top: 10px;
+}
+
+/* Стили для кнопок в карточках товаров */
+.add-to-busket-btn {
+    display: block;
+    margin: 10px auto;
+}
+
+.btn-minus,
+.btn-plus {
+    font-size: 22px;
+    padding: 3px 8px;
+    border-radius: 20px;
+}
+
+/* .count-input {
+    width: 30px;
+    text-align: center;
+    display: inline-block;
+} */
+
+.ok-1,
+.ok-2,
+.ok-3,
+.ok-4,
+.ok-5 {
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+/* Стили для модальных окон */
+.modal-body img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Стили для навигационной панели */
+.navbar {
+    width: 100%;
+    background-color: #333;
+    border: none;
+    border-radius: 0;
+    height: 70px; /* Высота шапки */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+    position: fixed;
+    top: 0;
+}
+.navbar .container{
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar.menu{
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.navbar-brand {
+    font-size: 24px;
+    color: #fff;
+    margin-right: 100px; /* Расстояние между логотипом и пунктами меню */
+}
+
+.navbar-nav {
+    margin-top: 5px; /* Расстояние между верхним краем шапки и пунктами меню */
+}
+
+.navbar-nav > li > a {
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 10px; /* Отступы вокруг текста в пунктах меню */
+}
+
+.cart-link {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 5px; /* Расстояние между верхним краем шапки и ссылкой на корзину */
+}
+
+/* Стили для подвала */
+.footer {
+    text-align: center;
+    margin-top: 50px;
+}
+/* Стили для скругления кнопок*/
+.add-to-busket-btn {
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px; /* Добавьте это свойство для скругления кнопок */
+}
+
+.btn-minus,
+.btn-plus {
+    font-size: 18px;
+    padding: 3px 8px;
+    border-radius: 5px; /* Добавьте это свойство для скругления кнопок */
+}
+
+.count-input {
+    width: 50px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px; /* Добавьте это свойство для скругления кнопок */
+}
+
+.ok-1,
+.ok-2,
+.ok-3,
+.ok-4,
+.ok-5 {
+    font-size: 24px;
+    margin-left: 10px;
+    border-radius: 5px; /* Добавьте это свойство для скругления кнопок */
+}
