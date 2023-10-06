@@ -101,7 +101,7 @@ body {
 }
 
 .cart-link {
-    color: #45f465;
+    color: #FF9492;
     font-size: 18px;
     margin-top: 5px; /* Расстояние между верхним краем шапки и ссылкой на корзину */
 }
@@ -165,8 +165,8 @@ a {
     text-decoration: none;
 }
 
-.btn-primary:hover{background-color:#213b1c;
-    /* border-color:#ebd127 */
+.btn-primary:hover{
+    background-color:#213b1c
 }
 .cart-link:hover {
     color: #ffffff;
