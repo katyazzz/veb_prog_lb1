@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Onest', sans-serif;
+    padding-top: 90px;
 }
 
 /* Стили для карточек товаров */
@@ -138,4 +139,10 @@ body {
     font-size: 24px;
     margin-left: 10px;
     border-radius: 5px; /* Добавьте это свойство для скругления кнопок */
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #3C6034;
+    /* border-color: #2e6da4; */
 }
