@@ -9,6 +9,7 @@
 body {
     font-family: 'Onest', sans-serif;
     padding-top: 90px;
+    
 }
 
 /* Стили для карточек товаров */
@@ -64,7 +65,7 @@ body {
 /* Стили для навигационной панели */
 .navbar {
     width: 100%;
-    background-color: #333;
+    background-color: #1e492e;
     border: none;
     border-radius: 0;
     height: 70px; /* Высота шапки */
@@ -84,9 +85,9 @@ body {
     margin-bottom: 0;
 }
 .navbar-brand {
-    font-size: 24px;
+    font-size: 26px;
     color: #fff;
-    margin-right: 100px; /* Расстояние между логотипом и пунктами меню */
+    margin-right: 140px; /* Расстояние между логотипом и пунктами меню */
 }
 
 .navbar-nav {
@@ -95,13 +96,13 @@ body {
 
 .navbar-nav > li > a {
     color: #fff;
-    font-size: 16px;
+    font-size: 18px;
     padding: 15px 10px; /* Отступы вокруг текста в пунктах меню */
 }
 
 .cart-link {
-    color: #fff;
-    font-size: 16px;
+    color: #45f465;
+    font-size: 18px;
     margin-top: 5px; /* Расстояние между верхним краем шапки и ссылкой на корзину */
 }
 
@@ -164,4 +165,11 @@ a {
     text-decoration: none;
 }
 
-.btn-primary:hover{background-color:#b733aa;border-color:#ebd127}
+.btn-primary:hover{background-color:#213b1c;
+    /* border-color:#ebd127 */
+}
+.cart-link:hover {
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 5px; /* Расстояние между верхним краем шапки и ссылкой на корзину */
+}
