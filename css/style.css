@@ -137,9 +137,9 @@ body {
 .ok-3,
 .ok-4,
 .ok-5 {
-    font-size: 24px;
+    /* font-size: 24px; */
     margin-left: 10px;
-    border-radius: 5px; /* Добавьте это свойство для скругления кнопок */
+    border-radius: 20px; /* Добавьте это свойство для скругления кнопок */
 }
 
 .btn-primary {
@@ -172,4 +172,7 @@ a {
     color: #ffffff;
     font-size: 16px;
     margin-top: 5px; /* Расстояние между верхним краем шапки и ссылкой на корзину */
+}
+.btn-success{
+    border-radius: 20 px;
 }
