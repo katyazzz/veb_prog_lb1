@@ -86,9 +86,11 @@ $(document).ready(function() {
 			`<div class="row">
 			<input readonly class="product0"></input>
 			<input readonly class="amount0"></input>
+			<input readonly class="price0"></input>
 			</div>`)
 			$('.product0').val("Lavender tea");
 			$('.amount0').val(cart[i]);
+			$('.price0').val(cart[i]*24.99+" $");
 					break;
 
 				case 1: 
@@ -98,9 +100,11 @@ $(document).ready(function() {
 			`<div class="row">
 			<input readonly class="product1"></input>
 			<input readonly class="amount1"></input>
+			<input readonly class="price1"></input>
 			</div>`)
 			$('.product1').val("Herb tea");
 			$('.amount1').val(cart[i]);
+			$('.price1').val(cart[i]*14.99+" $");
 					break;
 		
 				case 2:
@@ -110,9 +114,11 @@ $(document).ready(function() {
 			`<div class="row">
 			<input readonly class="product2"></input>
 			<input readonly class="amount2"></input>
+			<input readonly class="price2"></input>
 			</div>`)
 			$('.product2').val("Black Tea");
 			$('.amount2').val(cart[i]);
+			$('.price2').val(cart[i]*19.99+" $");
 					break;
 			
 				case 3:
@@ -122,9 +128,11 @@ $(document).ready(function() {
 			`<div class="row">
 			<input readonly class="product3"></input>
 			<input readonly class="amount3"></input>
+			<input readonly class="price3"></input>
 			</div>`)
 			$('.product3').val("Green tea with bergamot");
 			$('.amount3').val(cart[i]);
+			$('.price3').val(cart[i]*24.99+" $");
 					break;
 			
 				case 4:
@@ -134,9 +142,11 @@ $(document).ready(function() {
 			`<div class="row">
 			<input readonly class="product4"></input>
 			<input readonly class="amount4"></input>
+			<input readonly class="price4"></input>
 			</div>`)
 			$('.product4').val("Jasmine tea");
 			$('.amount4').val(cart[i]);
+			$('.price4').val(cart[i]*34.99+" $");
 					break;
 
 				default:
