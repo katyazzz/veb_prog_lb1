@@ -101,9 +101,16 @@ body {
 }
 
 .cart-link {
-    color: #FF9492;
-    font-size: 18px;
-    margin-top: 5px; /* Расстояние между верхним краем шапки и ссылкой на корзину */
+    /* color: #FF9492; */
+    /* font-size: 18px; */
+    /* margin-top: 5px;  */
+    /* Расстояние между верхним краем шапки и ссылкой на корзину */
+    background-color: #17281e;
+    border-color: #ffffff;
+    border: 1px;
+    border-radius: 100px;
+    height: 50px;
+    
 }
 
 /* Стили для подвала */
@@ -145,7 +152,7 @@ body {
 .btn-primary {
     color: #fff;
     background-color: #3C6034;
-    /* border-color: #2e6da4; */
+    /* border-color: #213b1c; */
     border-radius: 20px; 
 }
 
@@ -170,9 +177,11 @@ a {
 }
 .cart-link:hover {
     color: #ffffff;
-    font-size: 16px;
-    margin-top: 5px; /* Расстояние между верхним краем шапки и ссылкой на корзину */
+    font-size: 18px;
+    /* margin-top: 5px; Расстояние между верхним краем шапки и ссылкой на корзину */
+    /* background-color: #bc3fc2e0; */
+    /* border-radius: 100px; */
 }
 .btn-success{
-    border-radius: 20 px;
+    border-radius: 20px;
 }
